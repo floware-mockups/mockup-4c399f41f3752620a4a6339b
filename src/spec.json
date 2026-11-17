@@ -1,0 +1,237 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo navigabile per controllare consumi, costi e andamento mensile degli edifici pubblici, con dati di fantasia.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard energetica",
+      "description": "Panoramica dei consumi registrati e confronto mensile tra edifici inventati.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.420 kWh"
+        },
+        {
+          "label": "Costo stimato",
+          "value": "€ 4.286"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "8"
+        },
+        {
+          "label": "Variazione sul mese precedente",
+          "value": "−6,4%"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Consumo (kWh)",
+        "Costo stimato (€)"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "21.300",
+          "4.950"
+        ],
+        [
+          "Febbraio",
+          "19.880",
+          "4.620"
+        ],
+        [
+          "Marzo",
+          "20.140",
+          "4.680"
+        ],
+        [
+          "Aprile",
+          "18.760",
+          "4.360"
+        ],
+        [
+          "Maggio",
+          "18.420",
+          "4.286"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco filtrabile degli edifici e dei relativi consumi più recenti. Il modulo consente di aggiungere una sede inventata.",
+      "metrics": [
+        {
+          "label": "Sedi registrate",
+          "value": "8"
+        },
+        {
+          "label": "Consumo complessivo recente",
+          "value": "18.420 kWh"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo mensile (kWh)",
+        "Costo stimato (€)"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Rete Civica Nubi",
+          "Aurora",
+          "3.180",
+          "740"
+        ],
+        [
+          "Centro Vela",
+          "Servizi Quercia",
+          "Borgo Alto",
+          "2.460",
+          "572"
+        ],
+        [
+          "Archivio Brina",
+          "Rete Civica Nubi",
+          "Aurora",
+          "1.980",
+          "461"
+        ],
+        [
+          "Polo Smeraldo",
+          "Consorzio Rugiada",
+          "Riva Nuova",
+          "2.720",
+          "633"
+        ],
+        [
+          "Sala Ardesia",
+          "Servizi Quercia",
+          "Borgo Alto",
+          "1.540",
+          "358"
+        ],
+        [
+          "Officina Nimbo",
+          "Consorzio Rugiada",
+          "Riva Nuova",
+          "2.130",
+          "496"
+        ],
+        [
+          "Casa Meridiana",
+          "Rete Civica Nubi",
+          "Colle Chiaro",
+          "2.870",
+          "668"
+        ],
+        [
+          "Deposito Mirto",
+          "Servizi Quercia",
+          "Colle Chiaro",
+          "1.540",
+          "358"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo mensile (kWh)",
+        "Costo stimato (€)"
+      ]
+    },
+    {
+      "id": "consumi",
+      "title": "Registro consumi",
+      "description": "Tabella filtrabile delle letture mensili, con inserimento di nuovi dati inventati.",
+      "metrics": [
+        {
+          "label": "Letture registrate",
+          "value": "8"
+        },
+        {
+          "label": "Periodo più recente",
+          "value": "Maggio"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Costo stimato (€)"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Rete Civica Nubi",
+          "Maggio",
+          "3.180",
+          "740"
+        ],
+        [
+          "Centro Vela",
+          "Servizi Quercia",
+          "Maggio",
+          "2.460",
+          "572"
+        ],
+        [
+          "Archivio Brina",
+          "Rete Civica Nubi",
+          "Maggio",
+          "1.980",
+          "461"
+        ],
+        [
+          "Polo Smeraldo",
+          "Consorzio Rugiada",
+          "Maggio",
+          "2.720",
+          "633"
+        ],
+        [
+          "Sala Ardesia",
+          "Servizi Quercia",
+          "Maggio",
+          "1.540",
+          "358"
+        ],
+        [
+          "Officina Nimbo",
+          "Consorzio Rugiada",
+          "Maggio",
+          "2.130",
+          "496"
+        ],
+        [
+          "Casa Meridiana",
+          "Rete Civica Nubi",
+          "Maggio",
+          "2.870",
+          "668"
+        ],
+        [
+          "Deposito Mirto",
+          "Servizi Quercia",
+          "Maggio",
+          "1.540",
+          "358"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Mese",
+        "Consumo (kWh)",
+        "Costo stimato (€)"
+      ]
+    }
+  ]
+}
